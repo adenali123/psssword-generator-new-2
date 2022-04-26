@@ -1,6 +1,6 @@
 var generateBtn = document.querySelector("#generate");
-let Capital = "ABCDEFGHIJKLMNOPQRSTUVWYZ";
-let lowercase = "abcdefghijklmnopqrstuvwyz";
+let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWYZ";
+let lowerCase = "abcdefghijklmnopqrstuvwyz";
 let numbers = "0123456789";
 let Symbols = "\!\"£$%^&*?()_[]"
 
@@ -34,11 +34,11 @@ function criteria(){
       }
       let special = confirm(" Do you want to include Symbols ");
       if (special == true){
-        arrays.push(special) 
+        arrays.push(Symbols) 
       }
       if(arrays.length === 0){ 
         alert("you must have at least one criteria");
-        criteria(); // 
+        criteria(); 
       }
       return arrays;
     }
