@@ -1,9 +1,10 @@
-# psssword-generator 
-This application is to build a random password for user.
-stored all criterias in arrays and gave them the option to choose their criterias
-generated the password randomly from the array of criterias so it's secure 
-made sure the criterias array is stored a local variable so it gets cleared with every refresh of the page.
+# My Coding Questionaire 
+This is my coding questionaire, useing the fundimentals of of html css and mostly javascript. If you get any questions wrong it will show you the correct answer, also it has a 15 second timer for each question, you also have the option of restart the questionaire if you not happy with your results
 
-Deployable URL: https://adenali123.github.io/psssword-generator-new-2/
+## URL
+Deployable URL: 
 
-Preview: <img src='Screenshot 2022-04-26 at 22.06.10.png'>
+
+### Screenshot
+
+![quiz](/Screenshot%202022-04-26%20at%2022.06.10.png)
